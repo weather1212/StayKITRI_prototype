@@ -20,5 +20,5 @@ var g5_cookie_domain = "";
 </script>
 <script src="/js/jquery-1.9.1.min.js"></script>
 <script src="/js/jquery.menu.js"></script>
-<script src="http://www.thestayan.com/js/common.js"></script>
-<script src="http://www.thestayan.com/js/wrest.js"></script>
+<script src="/js/common.js"></script>
+<script src="/js/wrest.js"></script>

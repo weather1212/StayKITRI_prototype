@@ -33,7 +33,7 @@
 				길</a> <a
 				href="http://www.thestayan.com/bbs/board.php?bo_table=reservation">예약안내</a>
 			<a href="http://www.thestayan.com/bbs/board.php?bo_table=trip">여행정보</a>
-		</div>
+		</div>	
 		<div class="copy">
 			스테이안 &nbsp; 주소 : 부산광역시 해운대구 해운대로 107(재송동) &nbsp; 대표자 : 김한진 <br />
 			사업자등록번호 : 804-17-00282 &nbsp; 통신판매업신고 : 제 2016-부산해운대-0633호 &nbsp;

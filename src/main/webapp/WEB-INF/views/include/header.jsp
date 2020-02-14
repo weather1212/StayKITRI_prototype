@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
-<h1 id="hd_h1">스테이안</h1>
+<h1 id="hd_h1">StayKITRI</h1>
 
     <div id="skip_to_container"><a href="#container">본문 바로가기</a></div>
 
@@ -35,7 +35,7 @@ $(function() {
          <div class="backdoc">
               <div class="body_html">
                    <div class="header">
-                                <div class="logo"><a href="/"><img src="http://www.thestayan.com/img/common/logo.gif" border="0" /></a></div>
+                                <div class="logo"><a href="/"><img src="/img/common/logo.gif" border="0" /></a></div>
                                <div class="main_menu">
                                     <ul>
                                     <!-- 대메뉴 블럭 0 -->
@@ -47,7 +47,7 @@ $(function() {
                                         </li>
                                     <!-- 대메뉴 블럭 1 -->
                                     <!-- 대메뉴 블럭 2 -->
-                                        <li class="mitem" rel=2><a href="http://www.thestayan.com/bbs/board.php?bo_table=room01">객실안내<br /><strong>ROOMS</strong></a>
+                                        <li class="mitem" rel=2><a href="/rooms/kitri-singleRoom">객실안내<br /><strong>ROOMS</strong></a>
                                         </li>
                                     <!-- 대메뉴 블럭 2 -->
                                     <!-- 대메뉴 블럭 3 -->
@@ -103,7 +103,7 @@ $(function() {
                             <!-- 서브메뉴 블럭 2 -->
                             <li>
                                      <div class="menuitem">
-                                    	 <div class="item" rel=6 mrel=2><a href="http://www.thestayan.com/bbs/board.php?bo_table=room06">1인실</a></div>
+                                    	 <div class="item" rel=6 mrel=2><a href="/rooms/kitri-singleRoom">1인실</a></div>
                                          <div class="item" rel=6 mrel=2><a href="http://www.thestayan.com/bbs/board.php?bo_table=room01">2인실(twin bed)</a></div>
                                          <div class="item" rel=7 mrel=2><a href="http://www.thestayan.com/bbs/board.php?bo_table=room02">2인실 온돌</a></div>
                                          <div class="item" rel=8 mrel=2><a href="http://www.thestayan.com/bbs/board.php?bo_table=room03">3인실</a></div>	
