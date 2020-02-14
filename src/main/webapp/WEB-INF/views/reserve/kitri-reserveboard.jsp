@@ -44,7 +44,7 @@
         <!--서브페이지 정보-->
 	            <div class="p_info">
                <ul>
-                   <li class="home"><a href="http://www.thestayan.com"><img src="http://www.thestayan.com/img/sub/page_home.gif" /></a></li>
+                   <li class="home"><a href="localhost:8082/"><img src="http://www.thestayan.com/img/sub/page_home.gif" /></a></li>
                    <li class="arrow">&nbsp;&nbsp;>&nbsp;&nbsp;</li>
                    <li>예약         
                    </li>
@@ -59,9 +59,9 @@
                 
 <div class="wzpmnwrap">
     <ul>
-        <li><a href="http://www.thestayan.com/bbs/board.php?bo_table=reservation&mode=info" class="">예약안내</a></li>
-        <li><a href="http://www.thestayan.com/bbs/board.php?bo_table=reservation&mode=step1" class="on">실시간예약</a></li>
-        <li><a href="http://www.thestayan.com/bbs/board.php?bo_table=reservation&mode=orderlist" class="">예약확인/취소</a></li>
+        <li><a href="http://localhost:8082/reserve/kitri-reserve" class="">예약안내</a></li>
+        <li><a href="http://localhost:8082/reserve/kitri-reserveboard" class="on">실시간예약</a></li>
+        <li><a href="http://localhost:8082/reserve/kitri-reservecheck" class="">예약확인/취소</a></li>
     </ul>
 </div>
 
@@ -438,7 +438,7 @@
     </form>
     
     <div class="action">
-        <a href="http://www.thestayan.com/bbs/board.php?bo_table=reservation" class="btn_submit before">&lt; 이전단계</a>&nbsp;
+        <a href="http://localhost:8082/reserve/kitri-reserve" class="btn_submit before">&lt; 이전단계</a>&nbsp;
         <a href="javascript:getNext();" class="btn_submit next">다음단계 &gt;</a>
     </div>
 

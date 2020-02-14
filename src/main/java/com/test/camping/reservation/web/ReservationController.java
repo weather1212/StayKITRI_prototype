@@ -28,4 +28,32 @@ public class ReservationController {
 		return "reserve/kitri-reserve";
 	}
 	
+	
+	@RequestMapping(value = "/kitri-reserveboard", method = RequestMethod.GET)
+	public String reserveboard(Locale locale, Model model) {
+		
+		logger.debug("reservation board ###########################");
+		
+		return "reserve/kitri-reserveboard";
+		
+	}
+	
+	@RequestMapping(value = "/kitri-reservepayment", method = RequestMethod.GET)
+	public String reservepayment(Locale locale, Model model) {
+		
+		logger.debug("reservation payment #########################");
+
+		return "reserve/kitri-reservepayment";
+		
+	}
+	
+	@RequestMapping(value = "/kitri-reservecheck", method = RequestMethod.GET)
+	public String reservecheck(Locale locale, Model model) {
+		
+		logger.debug("reservation check ###########################");
+		
+		return "reserve/kitri-reservecheck";
+		
+	}
+	
 }

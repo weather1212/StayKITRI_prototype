@@ -68,9 +68,9 @@
                 
 <div class="wzpmnwrap">
     <ul>
-        <li><a href="http://www.thestayan.com/bbs/board.php?bo_table=reservation&mode=info" class="">예약안내</a></li>
-        <li><a href="http://www.thestayan.com/bbs/board.php?bo_table=reservation&mode=step1" class="on">실시간예약</a></li>
-        <li><a href="http://www.thestayan.com/bbs/board.php?bo_table=reservation&mode=orderlist" class="">예약확인/취소</a></li>
+        <li><a href="http://localhost:8082/reserve/kitri-reserve" class="">예약안내</a></li>
+        <li><a href="http://localhost:8082/reserve/kitri-reserveboard" class="on">실시간예약</a></li>
+        <li><a href="http://localhost:8082/reserve/kitri-reservecheck" class="">예약확인/취소</a></li>
     </ul>
 </div>
 <style>

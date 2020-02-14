@@ -8,6 +8,7 @@
 	<title>스테이 키트리 | 오시는 길</title>
 	<jsp:include page="../../include/commonCss.jsp" />
 	<jsp:include page="../../include/commonJs.jsp" />
+	<jsp:include page="../../"
 </head>
 <body>
 	<div id="hd">
@@ -44,7 +45,7 @@
         <!--서브페이지 정보-->
 	            <div class="p_info">
                <ul>
-                   <li class="home"><a href="http://www.thestayan.com"><img src="http://www.thestayan.com/img/sub/page_home.gif" /></a></li>
+                   <li class="home"><a href="http://localhost:8082/"><img src="http://www.thestayan.com/img/sub/page_home.gif" /></a></li>
                    <li class="arrow">&nbsp;&nbsp;>&nbsp;&nbsp;</li>
                    <li>예약         
                    </li>
