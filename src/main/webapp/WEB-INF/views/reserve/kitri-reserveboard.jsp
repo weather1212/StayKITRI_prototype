@@ -28,8 +28,7 @@
 			     },2500);	
 		    });	
 			</script>
-        	<div class="visual_txt"><img src="http://www.thestayan.com/img/common/visual_txt.png" border="0" usemap="visual_txt_link"/></div><!--.visual_txt-->
-          
+        	
                            <div id="simg4"></div>
                     </div><!--#svisual-->
         <!--서브이미지-->
