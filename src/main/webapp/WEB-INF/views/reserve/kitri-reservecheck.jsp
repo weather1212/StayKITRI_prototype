@@ -8,7 +8,6 @@
 	<title>스테이 키트리 | 오시는 길</title>
 	<jsp:include page="../../include/commonCss.jsp" />
 	<jsp:include page="../../include/commonJs.jsp" />
-	<jsp:include page="../../"
 </head>
 <body>
 	<div id="hd">
