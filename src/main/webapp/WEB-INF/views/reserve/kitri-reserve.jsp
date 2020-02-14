@@ -53,7 +53,7 @@
         <!--서브페이지 정보-->
 	            <div class="p_info">
                <ul>
-                   <li class="home"><a href="http://www.thestayan.com"><img src="http://www.thestayan.com/img/sub/page_home.gif" /></a></li>
+                   <li class="home"><a href="http://localhost:8082/"><img src="http://www.thestayan.com/img/sub/page_home.gif" /></a></li>
                    <li class="arrow">&nbsp;&nbsp;>&nbsp;&nbsp;</li>
                    <li>예약         
                    </li>
