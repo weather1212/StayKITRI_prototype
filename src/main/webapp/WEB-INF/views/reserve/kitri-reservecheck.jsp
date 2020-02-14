@@ -1,25 +1,18 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<title>실시간 예약 1 페이지 | 스테이 키트리</title>
 <head>
 	<jsp:include page="../../include/meta.jsp" />
-	<title>스테이 키트리 | 스테이 업체 소개</title>
+	<title>스테이 키트리 | 오시는 길</title>
 	<jsp:include page="../../include/commonCss.jsp" />
-	<link rel="stylesheet" href="/css/skin/content/basic/style.css">
 	<jsp:include page="../../include/commonJs.jsp" />
 </head>
 <body>
-
-
-	<!-- 상단 시작 { -->
 	<div id="hd">
 		<jsp:include page="../include/header.jsp" />
-		<!-- } 상단 끝 -->
-<!-- 콘텐츠 시작 { -->
+			<!-- 콘텐츠 시작 { -->
 <div id="wrapper">
 
 		        <!--서브이미지-->
@@ -138,83 +131,8 @@
          
 
 <!-- } 콘텐츠 끝 -->
-
-<hr>
-
-<!-- 하단 시작 { -->
-
-<div id="quick">
-	    <li class="login"><a href="http://www.thestayan.com/bbs/login.php"><img src="http://www.thestayan.com/img/common/q_admin.png" border="0" /><span>로그인</span></a></li>
-    	<li class="q_res"><a href="http://www.thestayan.com/bbs/board.php?bo_table=reservation"><img src="http://www.thestayan.com/img/common/q_res.png" border="0" /><span>예약</span></a></li>
-	<li class="q_rev"><a href="http://www.thestayan.com/bbs/board.php?bo_table=review"><img src="http://www.thestayan.com/img/common/q_rev.png" border="0" /><span>후기</span></a></li>
-	<li class="q_map"><a href="http://www.thestayan.com/bbs/content.php?co_id=greet2"><img src="http://www.thestayan.com/img/common/q_map.png" border="0" /><span>지도</span></a></li>
-	<li class="q_trip"><a href="http://www.thestayan.com/bbs/board.php?bo_table=trip"><img src="http://www.thestayan.com/img/common/q_trip.png" border="0" /><span>정보</span></a></li>
-	<li class="q_top"><a href="#">TOP</a></li>
-</div><!--#quick-->
-
-
-<div id="footer_wrap">
-	<div id="footer">
-    	<div class="c_menu">
-        	<a href="http://www.thestayan.com/bbs/content.php?co_id=greet1">스테이안 소개</a>
-            <a href="http://www.thestayan.com/bbs/content.php?co_id=greet2">찾아오시는 길</a>
-            <a href="http://www.thestayan.com/bbs/board.php?bo_table=reservation">예약안내</a>
-            <a href="http://www.thestayan.com/bbs/board.php?bo_table=trip">여행정보</a>
-        </div>
-        <div class="copy">
-        	스테이안  &nbsp; 주소 : 부산광역시 해운대구 해운대로 107(재송동) &nbsp; 대표자 : 김한진 <br />
-            사업자등록번호 : 804-17-00282  &nbsp; 통신판매업신고 : 제 2016-부산해운대-0633호  &nbsp; 대표번호 : 010-9191-4465<br />
-            <strong>COPYRIGHT(C)2016 STAYAN. ALL RIGHTS RESERVED.</strong>
-        </div><!--.copy-->
-    </div><!--#footer-->
-</div><!--#footer_wrap-->
-
-
-
-<!--<div id="ft">
-    <div id="ft_catch"><img src="http://www.thestayan.com/img/ft.png" alt="그누보드5"></div>
-    <div id="ft_company">
-    </div>
-    <div id="ft_copy">
-        <div>
-            <a href="http://www.thestayan.com/bbs/content.php?co_id=company">회사소개</a>
-            <a href="http://www.thestayan.com/bbs/content.php?co_id=privacy">개인정보취급방침</a>
-            <a href="http://www.thestayan.com/bbs/content.php?co_id=provision">서비스이용약관</a>
-            Copyright &copy; <b>소유하신 도메인.</b> All rights reserved.<br>
-            <a href="#hd" id="ft_totop">상단으로</a>
-        </div>
-    </div>
-</div>-->
-
-
-<!-- } 하단 끝 -->
-
-<script>
-$(function() {
-    // 폰트 리사이즈 쿠키있으면 실행
-    font_resize("container", get_cookie("ck_font_resize_rmv_class"), get_cookie("ck_font_resize_add_class"));
-});
-</script>
-
-
-
-<!-- ie6,7에서 사이드뷰가 게시판 목록에서 아래 사이드뷰에 가려지는 현상 수정 -->
-<!--[if lte IE 7]>
-<script>
-$(function() {
-    var $sv_use = $(".sv_use");
-    var count = $sv_use.length;
-
-    $sv_use.each(function() {
-        $(this).css("z-index", count);
-        $(this).css("position", "relative");
-        count = count - 1;
-    });
-});
-</script>
-<![endif]-->
-
+			
+		<jsp:include page="../include/footer.jsp" />
+	</div>
 </body>
 </html>
-
-<!-- 사용스킨 : pensionstatus -->

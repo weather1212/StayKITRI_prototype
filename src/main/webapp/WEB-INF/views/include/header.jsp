@@ -55,7 +55,7 @@ $(function() {
                                         </li>
                                     <!-- 대메뉴 블럭 3 -->
                                     <!-- 대메뉴 블럭 4 -->
-                                        <li class="mitem" rel=4><a href="http://www.thestayan.com/bbs/board.php?bo_table=reservation">예약<br /><strong>RESERVATION</strong></a>
+                                        <li class="mitem" rel=4><a href="/reserve/kitri-reserve">예약<br /><strong>RESERVATION</strong></a>
                                         </li>
                                     <!-- 대메뉴 블럭 4 -->
                                     <!-- 대메뉴 블럭 5 -->

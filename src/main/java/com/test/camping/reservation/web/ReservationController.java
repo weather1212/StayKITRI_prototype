@@ -21,7 +21,7 @@ public class ReservationController {
 	private static final Logger logger = LoggerFactory.getLogger(ReservationController.class);
 	
 	@RequestMapping(value = "/kitri-reserve", method = RequestMethod.GET)
-	public String intro(Locale locale, Model model) {
+	public String reserve(Locale locale, Model model) {
 		
 		logger.debug("reservations ################################");
 		
