@@ -126,7 +126,7 @@ $(function() {
                             <!-- 서브메뉴 블럭 4 -->
                             <li>
                                      <div class="menuitem">
-                                         <div class="item" rel=13 mrel=4><a href="http://www.thestayan.com/bbs/board.php?bo_table=reservation">예약</a></div>	
+                                         <div class="item" rel=13 mrel=4><a href="/reserve/kitri-reserve">예약</a></div>	
                                     </div>
                             </li>
                             <!-- 서브메뉴 블럭 4 -->
