@@ -447,7 +447,7 @@
 <script type="text/javascript">
 <!--
     function getCalender(sch_year, sch_month, sch_day) { 
-        location.href = "http://www.thestayan.com/bbs/board.php?bo_table=reservation&mode=step1&sch_year="+sch_year+"&sch_month="+sch_month+"&sch_day="+sch_day;
+        location.href = "http://localhost:8082/reserve/kitri-reserve&sch_year="+sch_year+"&sch_month="+sch_month+"&sch_day="+sch_day;
     }
     function getNext() { 
         var f = document.forms.wzfrm;
@@ -468,7 +468,7 @@
 			}
 		}
 
-        f.action = "http://www.thestayan.com/bbs/board.php?bo_table=reservation";
+        f.action = "http://localhost:8082/reserve/kitri-reserve";
         f.target = "_self";
         f.submit();
     }

@@ -116,7 +116,7 @@
             return false;
         }
 
-        f.action = "http://www.thestayan.com/bbs/board.php?bo_table=reservation";
+        f.action = "http://localhost:8082/reserve/kitri-reserve";
         f.target = "_self";
 
 

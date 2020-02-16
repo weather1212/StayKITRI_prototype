@@ -15,45 +15,17 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * Handles requests for the application home page.
  */
 @Controller
-@RequestMapping(value = "/reserve", method = RequestMethod.GET)
-public class ReservationController {
+@RequestMapping(value = "/plugin", method = RequestMethod.GET)
+public class PluginController {
 	
-	private static final Logger logger = LoggerFactory.getLogger(ReservationController.class);
+	private static final Logger logger = LoggerFactory.getLogger(PluginController.class);
 	
-	@RequestMapping(value = "/kitri-reserve", method = RequestMethod.GET)
-	public String reserve(Locale locale, Model model) {
+	@RequestMapping(value = "/wz.booking.pension", method = RequestMethod.GET)
+	public String booking(Locale locale, Model model) {
 		
-		logger.debug("reservations ################################");
+		logger.debug("plugin/wz.booking.pension ################################");
 		
-		return "reserve/kitri-reserve";
-	}
-	
-	
-	@RequestMapping(value = "/kitri-reserveboard", method = RequestMethod.GET)
-	public String reserveboard(Locale locale, Model model) {
-		
-		logger.debug("reservation board ###########################");
-		
-		return "reserve/kitri-reserveboard";
-		
-	}
-	
-	@RequestMapping(value = "/kitri-reservepayment", method = RequestMethod.GET)
-	public String reservepayment(Locale locale, Model model) {
-		
-		logger.debug("reservation payment #########################");
-
-		return "reserve/kitri-reservepayment";
-		
-	}
-	
-	@RequestMapping(value = "/kitri-reservecheck", method = RequestMethod.GET)
-	public String reservecheck(Locale locale, Model model) {
-		
-		logger.debug("reservation check ###########################");
-		
-		return "reserve/kitri-reservecheck";
-		
+		return "plugin/wz.booking.pension";
 	}
 	
 }
